@@ -39,91 +39,85 @@ Partial Class Form
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(35, 43)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(26, 35)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(21, 17)
+        Me.Label1.Size = New System.Drawing.Size(18, 13)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "ID"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(39, 110)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(29, 89)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(58, 17)
+        Me.Label2.Size = New System.Drawing.Size(44, 13)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Nombre"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(35, 166)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(26, 135)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(63, 17)
+        Me.Label3.Size = New System.Drawing.Size(50, 13)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "CategIva"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(43, 230)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(32, 187)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(44, 17)
+        Me.Label4.Size = New System.Drawing.Size(34, 13)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Saldo"
         '
         'id
         '
-        Me.id.Location = New System.Drawing.Point(160, 43)
-        Me.id.Margin = New System.Windows.Forms.Padding(4)
+        Me.id.Location = New System.Drawing.Point(120, 35)
         Me.id.Name = "id"
-        Me.id.Size = New System.Drawing.Size(132, 22)
+        Me.id.Size = New System.Drawing.Size(100, 20)
         Me.id.TabIndex = 4
         '
         'Nombre
         '
-        Me.Nombre.Location = New System.Drawing.Point(160, 100)
-        Me.Nombre.Margin = New System.Windows.Forms.Padding(4)
+        Me.Nombre.Location = New System.Drawing.Point(120, 81)
         Me.Nombre.Name = "Nombre"
-        Me.Nombre.Size = New System.Drawing.Size(132, 22)
+        Me.Nombre.Size = New System.Drawing.Size(100, 20)
         Me.Nombre.TabIndex = 5
         '
         'saldo
         '
-        Me.saldo.Location = New System.Drawing.Point(160, 230)
-        Me.saldo.Margin = New System.Windows.Forms.Padding(4)
+        Me.saldo.Location = New System.Drawing.Point(120, 187)
         Me.saldo.Name = "saldo"
-        Me.saldo.Size = New System.Drawing.Size(132, 22)
+        Me.saldo.Size = New System.Drawing.Size(100, 20)
         Me.saldo.TabIndex = 6
         '
         'CategIva
         '
         Me.CategIva.FormattingEnabled = True
         Me.CategIva.Items.AddRange(New Object() {"Responsable" & Global.Microsoft.VisualBasic.ChrW(9), "", "No Responsable", "" & Global.Microsoft.VisualBasic.ChrW(9), "Inscripto", "", "No Inscipto"})
-        Me.CategIva.Location = New System.Drawing.Point(160, 166)
-        Me.CategIva.Margin = New System.Windows.Forms.Padding(4)
+        Me.CategIva.Location = New System.Drawing.Point(120, 135)
         Me.CategIva.Name = "CategIva"
-        Me.CategIva.Size = New System.Drawing.Size(160, 24)
+        Me.CategIva.Size = New System.Drawing.Size(121, 21)
         Me.CategIva.TabIndex = 7
         '
         'Aceptar
         '
-        Me.Aceptar.Location = New System.Drawing.Point(46, 358)
+        Me.Aceptar.Location = New System.Drawing.Point(34, 291)
+        Me.Aceptar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Aceptar.Name = "Aceptar"
-        Me.Aceptar.Size = New System.Drawing.Size(75, 23)
+        Me.Aceptar.Size = New System.Drawing.Size(56, 19)
         Me.Aceptar.TabIndex = 8
         Me.Aceptar.Text = "Aceptar"
         Me.Aceptar.UseVisualStyleBackColor = True
         '
         'Cancelar
         '
-        Me.Cancelar.Location = New System.Drawing.Point(217, 358)
+        Me.Cancelar.Location = New System.Drawing.Point(163, 291)
+        Me.Cancelar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Cancelar.Name = "Cancelar"
-        Me.Cancelar.Size = New System.Drawing.Size(75, 23)
+        Me.Cancelar.Size = New System.Drawing.Size(56, 19)
         Me.Cancelar.TabIndex = 9
         Me.Cancelar.Text = "Cancelar"
         Me.Cancelar.UseVisualStyleBackColor = True
@@ -131,24 +125,26 @@ Partial Class Form
         'Direccion
         '
         Me.Direccion.AutoSize = True
-        Me.Direccion.Location = New System.Drawing.Point(46, 285)
+        Me.Direccion.Location = New System.Drawing.Point(34, 232)
+        Me.Direccion.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Direccion.Name = "Direccion"
-        Me.Direccion.Size = New System.Drawing.Size(67, 17)
+        Me.Direccion.Size = New System.Drawing.Size(52, 13)
         Me.Direccion.TabIndex = 10
         Me.Direccion.Text = "Direccion"
         '
         'Dirección
         '
-        Me.Dirección.Location = New System.Drawing.Point(160, 275)
+        Me.Dirección.Location = New System.Drawing.Point(120, 223)
+        Me.Dirección.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Dirección.Name = "Dirección"
-        Me.Dirección.Size = New System.Drawing.Size(100, 22)
+        Me.Dirección.Size = New System.Drawing.Size(76, 20)
         Me.Dirección.TabIndex = 11
         '
         'Form
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(379, 407)
+        Me.ClientSize = New System.Drawing.Size(284, 331)
         Me.Controls.Add(Me.Dirección)
         Me.Controls.Add(Me.Direccion)
         Me.Controls.Add(Me.Cancelar)
@@ -161,7 +157,6 @@ Partial Class Form
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
